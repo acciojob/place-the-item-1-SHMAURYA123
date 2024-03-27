@@ -4,10 +4,11 @@
 	margin:0;
 	padding:0;
 }
-.container{
+.holder{
 	
     display:flex;
-	justify-content:space-between
+	justify-content:space-between;
+	flex-wrap: wrap;
 }
 #box1{
 	height:60px;
